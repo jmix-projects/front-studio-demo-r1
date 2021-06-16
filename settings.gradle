@@ -1,0 +1,3 @@
+rootProject.name = 'front-studio-demo-r1'
+
+include 'frontend'
