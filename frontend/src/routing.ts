@@ -1,3 +1,4 @@
+import "./app/book/BookEdit";
 import "./app/custom/MovingScreen";
 import "./app/blank/BlankScreen";
 import "./app/user/UserList";

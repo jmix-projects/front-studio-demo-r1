@@ -8,6 +8,8 @@ export class Book {
 export type BookViewName = "_base" | "_instance_name" | "_local";
 export type BookView<V extends BookViewName> = V extends "_base"
   ? Pick<Book, "id" | "title" | "year" | "author">
+  : V extends "_instance_name"
+  ? Pick<Book, "id" | "title">
   : V extends "_local"
   ? Pick<Book, "id" | "title" | "year" | "author">
   : never;

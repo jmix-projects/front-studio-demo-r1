@@ -59,6 +59,51 @@
       ]
     },
     {
+      "name": "TestRegistration",
+      "className": "TestRegistration",
+      "attributes": [
+        {
+          "name": "id",
+          "type": {
+            "packageName": "java.util",
+            "className": "UUID",
+            "fqn": "java.util.UUID",
+            "label": "UUID"
+          },
+          "mappingType": "DATATYPE",
+          "readOnly": false,
+          "mandatory": true,
+          "transient": false
+        },
+        {
+          "name": "name",
+          "type": {
+            "packageName": "java.lang",
+            "className": "String",
+            "fqn": "java.lang.String",
+            "label": "String"
+          },
+          "mappingType": "DATATYPE",
+          "readOnly": false,
+          "mandatory": false,
+          "transient": false
+        },
+        {
+          "name": "description",
+          "type": {
+            "packageName": "java.lang",
+            "className": "String",
+            "fqn": "java.lang.String",
+            "label": "String"
+          },
+          "mappingType": "DATATYPE",
+          "readOnly": false,
+          "mandatory": false,
+          "transient": false
+        }
+      ]
+    },
+    {
       "name": "User",
       "className": "User",
       "attributes": [
