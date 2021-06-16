@@ -12,6 +12,18 @@ export const AppMenu = () => {
         caption={"menu.home"}
         key={"home"}
       />
+      <MenuItem
+        screenId={"UserList"}
+        icon={<BarsOutlined />}
+        caption={"menu.UserList"}
+        key={"ede02e7d-e3ae-4a88-8f48-e2da6fa05218"}
+      />
+      <MenuItem
+        screenId={"BlankScreen"}
+        icon={<BarsOutlined />}
+        caption={"menu.BlankScreen"}
+        key={"720a1fa7-6b37-4ac4-afd9-ac1eb56cf1c1"}
+      />
     </VerticalMenu>
   );
 };
