@@ -1,3 +1,4 @@
+import "./app/custom/MovingScreen";
 import "./app/blank/BlankScreen";
 import "./app/user/UserList";
 import "./app/user/UserEditor";

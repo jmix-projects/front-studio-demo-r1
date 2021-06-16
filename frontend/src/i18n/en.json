@@ -1,4 +1,5 @@
 {
+  "menu.MovingScreen": "Moving Screen",
   "menu.BlankScreen": "Blank Screen",
   "management.browser.delete.areYouSure": "Are you sure you want to delete {instanceName}?",
   "management.browser.delete.ok": "Delete",
